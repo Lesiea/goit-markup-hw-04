@@ -134,7 +134,14 @@ address {
     background-color: #2e2f42;
     text-align: center;
     padding: 188px 0;
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url('../images/hero_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .main-title {
     font-size: 56px;
     line-height: 1.07;
