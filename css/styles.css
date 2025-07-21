@@ -183,6 +183,22 @@ address {
 .features-item {
     width: calc((100% - 3 * 24px) / 4);
 }
+.features-icons-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #8e8f99;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: #f4f4fd;}
+
+
+.features-icons { 
+    width: 64px;
+    height: 64px;}
+
 .features-subtitle {
     font-weight: 500;
     font-size: 20px;
