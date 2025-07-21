@@ -130,7 +130,7 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;}
-  
+
 .contacts {
     font-style: normal;
 }
@@ -148,6 +148,8 @@ address {
 }
 /* 1 hero-section */
 .hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: #2e2f42;
     text-align: center;
     padding: 188px 0;
