@@ -67,6 +67,7 @@ address {
 /*header*/
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header .container {
     display: flex;
@@ -145,6 +146,7 @@ address {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* 1 hero-section */
 .hero-section {
@@ -184,6 +186,8 @@ address {
     border: none;
     padding: 16px 32px;
      margin: 24px auto 0;
+
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
